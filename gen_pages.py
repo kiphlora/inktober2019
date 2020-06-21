@@ -25,9 +25,9 @@ def makehtml(prompt_num, prompt_name):
 <title>Process for Prompt {prompt_num} - {prompt_name.capitalize()}</title>
 
 <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="../../kiphlora_website_stylingcss/project-theme.css">
-<link rel="stylesheet" type="text/css" href="../../kiphlora_website_stylingcss/page-style.css">
-<link rel="stylesheet" type="text/css" href="../../kiphlora_website_stylingfont-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../../kiphlora_website_styling/css/project-theme.css">
+<link rel="stylesheet" type="text/css" href="../../kiphlora_website_styling/css/page-style.css">
+<link rel="stylesheet" type="text/css" href="../../kiphlora_website_styling/font-awesome/css/font-awesome.min.css">
 
 <style>
 
@@ -162,5 +162,5 @@ main_page = f'''
 
 print(main_page)
 
-with open("index.html", "w") as f:
-	f.write(main_page)
+# with open("index.html", "w") as f:
+# 	f.write(main_page)
