@@ -108,19 +108,12 @@ main_page = f'''
 <title>Inktober 2019</title>
 
 <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/drawing_theme.css">
 <link rel="stylesheet" type="text/css" href="kiphlora_website_styling/css/project-theme.css">
 <link rel="stylesheet" type="text/css" href="kiphlora_website_styling/css/page-style.css">
 <link rel="stylesheet" type="text/css" href="kiphlora_website_styling/font-awesome/css/font-awesome.min.css">
 
 <style>
-
-	figure {{
-		padding: 15px;
-		/*border: 1px solid #000;*/
-		margin: 20px;
-		box-shadow: 0px 0px 8px 5px #bbb;
-	}}
-
 </style>
 
 </head>
@@ -137,12 +130,17 @@ main_page = f'''
 
 <div class="hero-content-wrapper">
 	<div class="intro-content">
+
+		<a href="https://inktober.com/" class='prompt-list'>
 		<figure>
 			<img src="drawings/inktober_prompt_list_2019.png" alt="Inktober 2019 Official Prompt List">
 			<figcaption>Inktober 2019 Official Prompt List</figcaption>
 		</figure>
+		</a>
 
+		<div class="drawing-flex">
 		{page_links}
+		</div>
 	</div>
 </div>
 
@@ -162,5 +160,5 @@ main_page = f'''
 
 print(main_page)
 
-# with open("index.html", "w") as f:
-# 	f.write(main_page)
+with open("index.html", "w") as f:
+	f.write(main_page)
