@@ -124,7 +124,7 @@ main_page = f'''
 	<div class="my-name">Inktober 2019</div>
 	<div class="nav">
 		<!-- <a href="about/index.html"><div class="about-nav"></div></a> -->
-		<a href="http://www.kiphlora.com"><div class="portfolio-nav"><i class="fa fa-home" aria-hidden="true"></i></div></a>
+		<a href="https://www.kiphlora.com"><div class="portfolio-nav"><i class="fa fa-home" aria-hidden="true"></i></div></a>
 	</div>
 </header>
 
